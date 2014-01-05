@@ -35,7 +35,12 @@
   },
   "animationPosition" : [-16, 0],
 
-  "scripts" : [ "/objects/wired/orbitaltarget/orbital_cb.lua" ],
-  "scriptDelta" : 5
-
+  "scripts" : [ "/objects/wired/orbitaltarget/orbitalstrike.lua" ],
+  "scriptDelta" : 5,
+  
+  "orbitaltype" : "carpet",
+  "projectiletype" : "orbitalrocket",
+  "volleys" : 1,
+  "missiles" : 20,
+  "orbitalaccuracy" : 3
 }
