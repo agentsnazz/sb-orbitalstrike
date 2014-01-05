@@ -1,4 +1,4 @@
-OrbitalMining
+OrbitalStrike
 =============
 
 v1.0:
