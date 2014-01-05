@@ -1,10 +1,12 @@
 OrbitalMining
 =============
 
-Phase 1:
-* Make a bomb appear armed at (x,y) and fall down.
+v1.0:
+* Created carpet bomb target, craftable via tabularasa
+* Carpet bomb is mostly POC at this point
+* target spawns bombs offscreen to the left of the target, watch out!
 
-Notes:
-* Plasma grenades might be a good item, carpet bomb style?
-* Molotovs could be a good napalm strike.
-* Basing the initial 'spawner' off of the beacon.
+To Do:
+* Control which side bombs spawn on
+* Add brief delay between bombs
+* Reorganize files to make adding new targets easier
