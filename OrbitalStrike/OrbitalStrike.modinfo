@@ -1,0 +1,12 @@
+{
+    "name" : "OrbitalStrike",
+    "version" : "Beta v. Angry Koala",
+    "path" : ".",
+    
+    "metadata" : {
+        "author" : "agentsnazz",
+        "version" : "0.1",
+        "description" : "This mod adds various orbital strikes, for mining and combat.",
+        "support_url" : "http://github.com/agentsnazz/starbound"
+    }
+}

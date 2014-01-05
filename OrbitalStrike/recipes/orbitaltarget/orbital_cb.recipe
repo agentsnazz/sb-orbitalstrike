@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "orbital_cb",
+    "count" : 1
+  },
+  "groups" : [ "mod", "objects", "tools", "all" ]
+}

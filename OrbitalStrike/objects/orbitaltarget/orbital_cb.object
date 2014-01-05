@@ -1,0 +1,41 @@
+{
+  "objectName" : "orbital_cb",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "An orbital targeting beacon, summons a carpet bomb strike.",
+  "shortdescription" : "Orbital Carpet Bomb Beacon",
+  "race" : "generic",
+  "category" : "tools",
+  "printable" : "false",
+  "apexDescription" : "A targeting beacon. It might not be a good idea to stay here...",
+  "avianDescription" : "A targeting beacon. Death from above!",
+  "floranDescription" : "Floran leave nothing for others to sssalvage",
+  "glitchDescription" : "Analysis. This targeting beacon is communicating with an orbiting station.",
+  "humanDescription" : "Sometimes you just have to destroy everything.",
+  "hylotlDescription" : "Such destructive capability could be perhaps used for mining.",
+
+  "inventoryIcon" : "orbital_cbicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "orbital_cb.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 12,
+      "animationCycle" : 2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "animation" : "/objects/wired/orbitaltarget/orbital_cb.animation",
+  "animationParts" : {
+    "beacon" : "orbital_cb.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/wired/orbitaltarget/orbital_cb.lua" ],
+  "scriptDelta" : 5
+
+}
